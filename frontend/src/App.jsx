@@ -1,15 +1,10 @@
 function App() {
   return (
-    <div style={{
-      minHeight: "100vh",
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-      fontFamily: "Arial"
-    }}>
-      <div style={{ textAlign: "center" }}>
-        <h1>RH AI Platform</h1>
-        <p>Plateforme intelligente de recrutement</p>
+    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <div className="bg-white p-8 rounded-xl shadow-lg">
+        <h1 className="text-2xl font-bold text-blue-600">
+          Tailwind v4 Working 🚀
+        </h1>
       </div>
     </div>
   );
