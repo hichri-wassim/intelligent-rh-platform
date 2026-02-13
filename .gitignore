@@ -1,0 +1,14 @@
+# Node
+node_modules/
+dist/
+
+# Java / Spring
+target/
+.idea/
+
+# Python
+__pycache__/
+.venv/
+
+# Env
+.env
